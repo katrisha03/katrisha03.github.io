@@ -1,0 +1,145 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  min-height: 53px;
+  margin-top: 26px;
+  max-width: 1200px;
+  width: 100%;
+
+  @media screen and (max-width: 999px) {
+    min-height: 63px;
+    }
+
+  @media screen and (max-width: 750px) {
+     display: none;
+    }
+}
+
+.container {
+  border-bottom: 0.3px solid $medium-green;
+
+  @media screen and (max-width: 750px) {
+    display: none;
+    }
+
+}
+
+.header__top-row {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header__top-row img {
+  @media screen and (max-width: 999px) {
+    width: 180px;
+    height: 40px;
+    }
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+
+  column-gap: 50px;
+}
+
+.nav__item {
+  color: #3D3D3D;
+
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+
+  &_active{
+  color: #3D3D3D;
+
+  // font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  }
+
+  @media screen and (max-width: 999px) {
+    font-size: 22px;
+  }
+}
+
+.header__right {
+  display: flex;
+
+  column-gap: 35px;
+}
+
+.header__cart {
+  display: flex;
+  align-items: center;
+}
+
+.header__cart img {
+  @media screen and (max-width: 999px) {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.header__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 35px;
+  padding: 8px 0px 7px 0px;
+
+  cursor: pointer;
+
+  color: #FFF;
+  border-radius: 6px;
+  background-color: #46A358;
+
+  font-size: 16px;
+  font-weight: 500;
+  text-align:center;
+
+  gap: 4px;
+
+  
+
+  @media screen and (max-width: 999px) {
+    font-size: 20px;
+    width: 110px;
+    height: 40px;
+    align-items: revert-layer;
+  }
+}
+
+.header__logout {
+  @media screen and (max-width: 999px) {
+    margin-top: 2px;
+  }
+  
+}
+
+// .header__top-row img {
+//   @media screen and (max-width: 999px) {
+//     width: 170px;
+//     height: 40px;
+//   }
+// }
+
+// .header__logout {
+//   display: flex;
+//   width: 20px;
+//   height: 20px;
+//   padding: 2.292px 1.84px 2.292px 1.882px;
+//   justify-content: center;
+//   align-items: center;
+//   flex-shrink: 0;
+// }
+

@@ -1,0 +1,124 @@
+.interested {
+    max-width: 1200px;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 55px;
+    @media screen and (max-width: 750px) {
+      height: 725px;
+      /*margin-top: 310px;*/
+      margin-bottom: 0;
+    }
+  }
+  
+  .interested__container {
+    @media screen and (max-width: 750px) {
+      height: 725px;
+    }
+  }
+  
+  .interested__container h1 {
+    margin-bottom: 12px;
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  } 
+  
+  .interested__line {
+    width: 100%;
+    height: 0.3px;
+    background: rgba(70, 163, 88, 0.50);
+  }
+  
+  .interested__block {
+    width: 100%;
+    height: 421px;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (max-width: 750px) {
+      height: 725px;
+    }
+  }
+  
+  .interested__block svg {
+    @media screen and (max-width: 750px) {
+      display: none;
+    }
+  }
+  
+  .interested__content {
+    width: 100%;
+    height: 304px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 61px;
+  }
+  
+  
+  
+  .interested__title {
+    margin-bottom: 6px;
+  
+    color: #3D3D3D;
+  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+  
+    @media screen and (max-width: 750px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+  
+  .interested__price {
+    color: #46A358;
+  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+  
+    @media screen and (max-width: 750px) {
+      font-size: 20px;
+      line-height: 35px;
+    }
+  }
+  
+  .interested__item {
+    display: block;
+  
+    width: 219px;
+    height: 319px;
+  
+    @media screen and (max-width: 750px) {
+      // background-color: #FBFBFB;
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+    }
+  }
+  
+  #interested__item_hide {
+    @media screen and (max-width: 750px) {
+      display: none;
+    }
+  }
+  
+  .interested__img {
+    // max-width: 219px;
+    // max-height: 250px;
+    width: 212px;
+    height: 212px;
+    margin: 0 auto 31px auto;
+  }
+  
+  .footer__copyright {
+    @media screen and (max-width: 750px) {
+      height: 410px;
+    }
+  }

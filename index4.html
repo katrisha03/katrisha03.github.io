@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <script src="resources/js/slider.js"></script> -->
+    <title>Greenshop</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- NAVIGATION -->
+        <div class="shopping__navigation">
+            <div class="shopping__navigation_container">
+            <div class="shopping__navigation_top">
+                <input type="" placeholder="Enter coupon code here..." class="shopping__navigation_input">
+                <button class="shopping__navigation_button">Apply</button>
+            </div>
+            <div class="shopping__navigation_center">
+                <div class="cart__subtotal">
+                    <div class="everybody__title">Subtotal</div>
+                    <div class="everybody__price">$2,683.00</div>
+                </div>
+                <div class="cart__discount">
+                    <div class="everybody__title">Coupon Discount</div>
+                    <div class="everybody__price">
+                        <span>(-) 00.00</span>
+                    </div>
+                </div>
+                <div class="cart__shiping">
+                    <div class="everybody__title">Shiping</div>
+                    <div class="everybody__price">$16.00</div>
+                </div>
+                <a class="shiping__info" href="#">View shipping charge</a>
+                <div class="cart__total">
+                    <div class="everybody__title">
+                        <span>Total</span>
+                    </div>
+                    <div class="total__price">$16.00</div>
+                </div>
+            </div>
+            <div class="shopping__navigation_bottom">
+                <button class="shopping__navigation_buy-button">Proceed To Checkout</button>  
+            </div>
+            </div>
+        </div>
+
+        <!-- HEADER -->
+        <header class="header">
+            <!-- HEADER -->
+            <div class="container">
+                <div class="header__top-row">
+                    <a href="#">
+                        <img src="resources/img/header/logo.png" alt="Greenshop">
+                    </a>
+                    <div class="header__nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="#">Home</a></li>
+                                <li class="nav__item nav__item_active"><a href="#">Shop</a></li>
+                                <li class="nav__item"><a href="#">Blogs</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__right">
+                        <div class="header__cart">
+                            <a href="#">
+                                <img class="header__cart" src="resources/img/header/cart.svg" alt="Cart">
+                            </a>
+                        </div>
+                        <div class="header__login">
+                            <a href="#">
+                                <button class="header__button">
+                                    <svg class="header__logout" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.1601 10.1006H8.12598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15.7212 7.67059L18.1612 10.1006L15.7212 12.5306" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.6342 6.35823C13.3592 3.3749 12.2425 2.29156 7.80082 2.29156C1.88332 2.29156 1.88332 4.21656 1.88332 9.9999C1.88332 15.7832 1.88332 17.7082 7.80082 17.7082C12.2425 17.7082 13.3592 16.6249 13.6342 13.6416" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+
+                                    Login
+
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- SHOPPING CART -->
+
+        <div class="shopping">
+            <h3><span>Home /</span> Shop / Shopping Cart</h3>
+
+            <div class="shopping__card">
+                <div class="shopping__product">
+                    <div class="shopping__navigate">
+                        <div class="shopping__nav">
+                            <div class="shop__navigate">
+                                Products
+                            </div>
+                            <div class="shop__nav">
+                                <nav class="nav">
+                                    <ul class="shop__nav_list">
+                                        <li class="shop__navigate">Price</li>
+                                        <li class="shop__navigate">Quantity</li>
+                                        <li class="shop__navigate">Total</li>
+                                    </ul>
+                                </nav> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shopping__mobile">
+                        <button class="shopping__arrow"><</button> 
+                        <div class="shopping__header">Cart</div>
+                    </div>
+                    <div class="shopping__container">
+                        <div class="shopping__product_card">
+                            <div class="shopping__image">
+                                <img src="resources/img/plant400.png" alt="" class="shopping__img">
+                                <div class="shopping__name">
+                                    <div class="shopping__title">Barberton Daisy</div>
+                                    <div class="shopping__subtitle">
+                                        SKU: <span> 1995751877966</span>
+                                    </div>
+                                    <div class="shopping__size">
+                                        Size: <span> M</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shopping__text">
+                                <div class="shopping__price">$119.00</div>
+                                <div class="shopping__quantity">
+                                    <div class="shopping__count">
+                                        <button class="shopping__math">-</button>
+                                        <div class="shopping__number">2</div>
+                                        <button class="shopping__math">+</button>
+                                    </div>
+                                </div>
+                                <div class="shopping__total">$238.00</div>
+                                <a class="shopping__delete" href="#">
+                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="delete_image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="shopping__product_card">
+                            <div class="shopping__image">
+                                <img src="resources/img/shopping card/400.png" alt="" class="shopping__img">
+                                <div class="shopping__name">
+                                    <div class="shopping__title">Blushing Bromeliad</div>
+                                    <div class="shopping__subtitle">
+                                        SKU: <span> 19957518757065</span>
+                                    </div>
+                                    <div class="shopping__size">
+                                        Size: <span> S</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shopping__text">
+                                <div class="shopping__price">$139.00</div>
+                                <div class="shopping__quantity">
+                                    <div class="shopping__count">
+                                        <button class="shopping__math">-</button>
+                                        <div class="shopping__number">6</div>
+                                        <button class="shopping__math">+</button>
+                                    </div>
+                                </div>
+                                <div class="shopping__total">$834.00</div>
+                                <a class="shopping__delete" href="#">
+                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="delete_image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="shopping__product_card">
+                            <div class="shopping__image">
+                                <img src="resources/img/shopping card/plate400.png" alt="" class="shopping__img">
+                                <div class="shopping__name">
+                                    <div class="shopping__title">Aluminum Plant</div>
+                                    <div class="shopping__subtitle">
+                                        SKU: <span> 1995751877786</span>
+                                    </div>
+                                    <div class="shopping__size">
+                                        Size:  <span> M </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shopping__text">
+                                <div class="shopping__price">$179.00</div>
+                                <div class="shopping__quantity">
+                                    <div class="shopping__count">
+                                        <button class="shopping__math">-</button>
+                                        <div class="shopping__number">9</div>
+                                        <button class="shopping__math">+</button>
+                                    </div>
+                                </div>
+                                <div class="shopping__total">$1,611.00</div>
+                                <a class="shopping__delete" href="#">
+                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="delete_image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping__cart_total">
+                    <div class="cart__name">
+                        <div class="cart__title">Cart Totals</div>
+                    </div>
+                    <div class="cart__apply">Coupon Apply</div>
+                    <div class="cart__input_apply">
+                        <input type="" placeholder="Enter coupon code here..." class="cart__input">
+                        <button class="button__apply">Apply</button>
+                    </div>
+                    <div class="cart__subtotal">
+                        <div class="everybody__title">Subtotal</div>
+                        <div class="everybody__price">$2,683.00</div>
+                    </div>
+                    <div class="cart__discount">
+                        <div class="everybody__title">Coupon Discount</div>
+                        <div class="everybody__price">
+                            <span>(-) 00.00</span>
+                        </div>
+                    </div>
+                    <div class="cart__shiping">
+                        <div class="everybody__title">Shiping</div>
+                        <div class="everybody__price">$16.00</div>
+                    </div>
+                    <a class="shiping__info" href="#">View shipping charge</a>
+                    <div class="cart__total">
+                        <div class="everybody__title">
+                            <span>Total</span>
+                        </div>
+                        <div class="total__price">$16.00</div>
+                    </div>
+                    <div class="cart__checkout">
+                        <button class="button__checkout">Proceed To Checkout</button>
+                    </div>
+                    <a class="cart__continue" href="#">Continue Shopping</a>
+                </div>
+            </div> 
+        </div>
+
+        <!-- INTERESTED -->
+        <div class="interested">
+            <div class="interested__container">
+            <h1>You may be interested in</h1>
+            <div class="interested__line"></div>
+            <div class="interested__block">
+                <div class="interested__content">
+                <a class="interested__item" href="#">
+                    <img src="resources/img/shopping card/Group 41.png" alt="" class="interested__img">
+                    <h3 class="interested__title">
+                    Beach Spider Lily
+                    </h3>
+                    <div class="interested__footer">
+                    <div class="interested__price">
+                        $129.00
+                    </div>
+                    </div>
+                </a>
+    
+                <a class="interested__item" href="#">
+                    <img src="resources/img/shopping card/Group 3089.png" alt="" class="interested__img">
+                    <h3 class="interested__title">
+                    Blushing Bromeliad
+                    </h3>
+                    <div class="interested__footer">
+                    <div class="interested__price">
+                        $139.00
+                    </div>
+                    </div>
+                </a>
+    
+                <a class="interested__item" href="#">
+                    <img src="resources/img/shopping card/Group 3088.png" alt="" class="interested__img">
+                    <h3 class="interested__title">
+                    Aluminum Plant
+                    </h3>
+                    <div class="interested__footer">
+                    <div class="interested__price">
+                        $179.00
+                    </div>
+                    </div>
+                </a>
+    
+                <a class="interested__item" href="#">
+                    <img src="resources/img/shopping card/Group 44.png" alt="" class="interested__img">
+                    <h3 class="interested__title">
+                    Bird's Nest Fern
+                    </h3>
+                    <div class="interested__footer">
+                    <div class="interested__price">
+                        $99.00
+                    </div>
+                    </div>
+                </a>
+    
+                <a class="interested__item" id="interested__item_hide" href="#">
+                    <img src="resources/img/shopping card/Group 45.png" alt="" class="interested__img">
+                    <h3 class="interested__title">
+                    Chinese Evergreen
+                    </h3>
+                    <div class="interested__footer">
+                    <div class="interested__price">
+                        $39.00
+                    </div>
+                    </div>
+                </a>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="12" viewBox="0 0 56 12" fill="none">
+                <circle cx="6" cy="6" r="5.35" stroke="#46A358" stroke-width="1.3"/>
+                <circle cx="28" cy="6" r="6" fill="#46A358"/>
+                <circle cx="50" cy="6" r="5.35" stroke="#46A358" stroke-width="1.3"/>
+                </svg>
+            </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__top">
+                    <div class="footer__top-cut">
+                        <div class="footer__logo">
+                            <img src="resources/img/logo.svg" alt="">
+                        </div>
+                        <div class="footer__address">
+                            <img src="resources/img/location.svg" alt=""> <div class="footer__adress-text">70 West Buckingham Ave.
+                            Farmingdale, NY 11735</div>
+                        </div>
+                        <div class="footer__mail">
+                            <img src="resources/img/message.svg" alt=""> contact@greenshop.com
+                        </div>
+                        <div class="footer__number">
+                            <img src="resources/img/phone.svg" alt=""> +88 01911 717 490
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__main">
+                    <div class="footer__content">
+                        <div class="footer__nav">
+
+                            <nav class="footer-nav">
+                                <ul class="footer-nav__list">
+                                    <li class="footer__title">My Account</li>
+                                    <li class="footer__text"><a href="#">My account</a></li>
+                                    <li class="footer__text"><a href="#">Our stores</a></li>
+                                    <li class="footer__text"><a href="#">Contact us</a></li>
+                                    <li class="footer__text"><a href="#">Career</a></li>
+                                    <li class="footer__text"><a href="#">Specials</a></li>
+                                </ul>
+                            </nav>
+
+                            <nav class="footer-nav">
+                                <ul class="footer-nav__list">
+                                    <li class="footer__title">Help & Guide</li>
+                                    <li class="footer__text"><a href="#">Help Center</a></li>
+                                    <li class="footer__text"> <a href="#">How to Buy</a></li>
+                                    <li class="footer__text"><a href="#">Shipping & Delivery</a></li>
+                                    <li class="footer__text"><a href="#">Product Policy</a></li>
+                                    <li class="footer__text"><a href="#">How to Return</a></li>
+                                </ul>
+                            </nav>
+
+                            <nav class="footer-nav">
+                                <ul class="footer-nav__list">
+                                    <li class="footer__title">Categories</li>
+                                    <li class="footer__text"><a href="#">House Plants</a></li>
+                                    <li class="footer__text"><a href="#">Potter Plants</a></li>
+                                    <li class="footer__text"><a href="#">Seeds</a></li>
+                                    <li class="footer__text"><a href="#">Seeds Small</a></li>
+                                    <li class="footer__text"><a href="#">Accessories</a></li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="footer__right">
+                            <div class="footer__media">
+                                <div class="footer__title">Social Media</div>
+                                <div class="footer__social">
+                                    <a href="#"><button class="footer__button"><img src="resources/img/Facebook.svg" alt=""></button></a>
+                                    <a href="#"><button class="footer__button"><img src="resources/img/Instagram.svg" alt=""></button></a>
+                                    <a href="#"><button class="footer__button"><img src="resources/img/Twitter.svg" alt=""></button></a>
+                                    <a href="#"><button class="footer__button"><img src="resources/img/Linkedin.svg" alt=""></button></a>
+                                    <a href="#"><button class="footer__button"><img src="resources/img/Union.svg" alt=""></button></a>
+                                </div>
+                            </div>
+                            <div class="footer__payment">
+                                <div class="footer__title" id="footer__accept_text">We accept</div>
+                                <a href="#"><img src="resources/img/visa.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <span>© 2021 GreenShop. All Rights Reserved.</span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

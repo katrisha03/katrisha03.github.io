@@ -1,0 +1,224 @@
+.catalog__container {
+  max-width: 840px;
+  //height: 1244px;
+  @media screen and (max-width: 999px) {
+    margin-right: 90px;
+  }
+
+  @media screen and (max-width: 750px) {
+    // margin-left: 30%;
+    margin-right: 0px;
+  }
+}
+
+.catalog__sort {
+  margin-bottom: 38px;
+
+  color: #3D3D3D;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+
+  @media screen and (max-width: 999px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 750px) {
+    font-size: 18px;
+    display: flex;
+    width: 76%;
+    gap: 30px;
+    // justify-content: space-between;
+  }
+}
+
+.catalog__sortBy  {
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
+}
+
+.catalog__sortBy img {
+  margin-top: 1px;
+}
+
+.catalog__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 840px;
+  height: 1190px;
+
+  @media screen and (max-width: 999px) {
+    width: 720px ;
+  }
+
+  @media screen and (max-width: 750px) {
+    width: 100%;
+    height: 960px;
+  }
+
+}
+
+.catalog__img {
+  max-width: 250px;
+  max-height: 250px;
+
+  margin: 0 auto 31px auto;
+
+  @media screen and (max-width: 750px) {
+    max-width: 295px;
+    max-height: 323px;
+    // width: 100%;
+    height: 50%;
+    border-radius: 20px;
+  }
+}
+
+
+.catalog__img_container {
+  // background-color: red;
+  // width: 50px;
+  // aspect-ratio: 1/1;
+  // display: block;
+  // height: auto;
+}
+// .catalog__img4 {
+//   @media screen and (max-width: 750px) {
+//     max-width: 250px;
+//   }
+// }
+
+.catalog__title {
+  margin-bottom: 6px;
+
+  color: #3D3D3D;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+
+  @media screen and (max-width: 750px) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.catalog__price {
+  color: #46A358;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+
+  @media screen and (max-width: 750px) {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+.catalog__item {
+  display: block;
+
+  width: 254px;
+  height: 319px;
+
+  @media screen and (max-width: 750px) {
+    // background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+}
+
+.catalog__item-bottom {
+  @media screen and (max-width: 750px) {
+    padding-top: 50px;
+  }
+}
+
+
+.catalog__item_container {
+  background-color:#46A358;
+  display: block;
+
+  width: 254px;
+  height: 319px;
+
+  @media screen and (max-width: 750px) {
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+}
+
+.catalog__item:hover {
+  border-top: 1px solid #46A358;
+}
+
+.catalag__item_cut {
+  @media screen and (max-width: 999px) {
+    display: none;
+  }
+}
+
+
+
+.catalog__plants_active {
+
+  display: none;
+  @media screen and (max-width: 750px) {
+    display: block;
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+    width: 63px;
+  }
+}
+
+.catalog__plants_active::after {
+  content: "";
+  width: 100%;
+  // height: 100%;
+  height: 2px;
+  background-color: #46A358;
+  bottom: 0;
+  display: block;
+  top: -10px;
+  // margin-top: 5px;
+}
+
+.catalog__plants_arrivals {
+  display: none;
+  @media screen and (max-width: 750px) {
+    display: block;
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+    width: 83px;
+  }
+}
+
+.catalog__plants_sale {
+  display: none;
+  @media screen and (max-width: 750px) {
+    display: block;
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+    width: 27px;
+  }
+}
+
