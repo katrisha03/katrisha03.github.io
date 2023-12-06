@@ -2556,7 +2556,7 @@ a {
 @media screen and (max-width: 750px) {
   .shopping {
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
 }
 
@@ -2759,7 +2759,7 @@ a {
 @media screen and (max-width: 750px) {
   .shopping__container {
     row-gap: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #FFFFFF;
   }
 }
@@ -2804,7 +2804,7 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%;
-    height: 110px;
+    height: 120px;
     border-radius: 14px;
     -webkit-column-gap: 10px;
        -moz-column-gap: 10px;
@@ -2862,7 +2862,7 @@ a {
 }
 @media screen and (max-width: 750px) {
   .shopping__text {
-    width: 136px;
+    width: 100px;
   }
 }
 
@@ -2996,7 +2996,6 @@ a {
 }
 @media screen and (max-width: 750px) {
   .shopping__math {
-    margin: 0 13px 0 13px;
     font-size: 21px;
     background-color: #f6f6f6;
     color: #3D3D3D;
