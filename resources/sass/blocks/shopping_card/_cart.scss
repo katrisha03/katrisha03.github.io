@@ -1,10 +1,10 @@
-.shopping__cart_total{
+.cart__totals{
     @media screen and (max-width:750px) {
         display:none;
     }
 }
 
-.cart__name{
+.cart__head{
     border-bottom: 0.3px solid rgba(70, 163, 88, 0.50);
     margin-bottom: 11px;
 }
@@ -29,12 +29,17 @@
     margin-bottom: 8px;
 }
 
-.cart__input_apply{
+.cart__input_button{
     display: flex;
-    width: 332px;
     height: 40px;
     border-radius: 3px;
     border: 1px solid #46A358;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cart__input{
+    display: flex;
     align-items: center;
     padding-left: 9px;
     color: #A5A5A5;
@@ -43,11 +48,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: 15px; /* 107.143% */
-    justify-content: space-between;
-    margin-bottom: 30px;
 }
 
-.button__apply{
+.cart__button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart__button_apply{
     width: 102px;
     height: 40px;
     border-radius: 0px 3px 3px 0px;
@@ -58,7 +67,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 16px; /* 106.667% */
-    cursor: pointer;
 }
 
 .cart__subtotal{
@@ -85,7 +93,7 @@
     margin-bottom: 30px;
 }
 
-.everybody__title{
+.cart__name{
     color: #3D3D3D;
     font-family: Cera Pro;
     font-size: 15px;
@@ -94,7 +102,7 @@
     line-height: 16px; /* 106.667% */
 }
 
-.everybody__title span{
+.cart__name span{
     color: #3D3D3D;
     font-family: Cera Pro;
     font-size: 16px;
@@ -103,7 +111,7 @@
     line-height: 16px; /* 100% */
 }
 
-.everybody__price{
+.cart__price{
     color: #3D3D3D;
     text-align: right;
     font-family: Cera Pro;
@@ -113,7 +121,7 @@
     line-height: 16px; /* 88.889% */
 }
 
-.everybody__price span{
+.cart__price span{
     color: #3D3D3D;
     font-family: Cera Pro;
     font-size: 15px;
@@ -122,7 +130,7 @@
     line-height: 16px; /* 106.667% */
 }
 
-.shiping__info{
+.cart__shiping_info{
     display: flex;
     justify-content: end;
     color: #46A358;
@@ -134,7 +142,7 @@
     margin-bottom: 26px;
 }
 
-.total__price{
+.cart__total_price{
     color: #46A358;
     text-align: right;
     font-family: Cera Pro;
@@ -149,18 +157,21 @@
     height: 40px;
     border-radius: 3px;
     background: #46A358;
-    color: #FFF;
-    font-family: Cera Pro;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 16px; /* 106.667% */
     display: flex;
     align-items: center;
     padding: 12px 90px;
     margin-bottom: 14px;
     cursor: pointer;
     justify-content: center;
+}
+
+.cart__button_checkout{
+    color: #FFF;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
 }
 
 .cart__continue{

@@ -14,36 +14,36 @@
         <!-- NAVIGATION -->
         <div class="shopping__navigation">
             <div class="shopping__navigation_container">
-            <div class="shopping__navigation_top">
-                <input type="" placeholder="Enter coupon code here..." class="shopping__navigation_input">
-                <button class="shopping__navigation_button">Apply</button>
-            </div>
-            <div class="shopping__navigation_center">
-                <div class="cart__subtotal">
-                    <div class="everybody__title">Subtotal</div>
-                    <div class="everybody__price">$2,683.00</div>
+                <div class="shopping__navigation_top">
+                    <input type="" placeholder="Enter coupon code here..." class="shopping__navigation_input">
+                    <button class="shopping__navigation_button">Apply</button>
                 </div>
-                <div class="cart__discount">
-                    <div class="everybody__title">Coupon Discount</div>
-                    <div class="everybody__price">
-                        <span>(-) 00.00</span>
+                <div class="shopping__navigation_center">
+                    <div class="cart__subtotal">
+                        <div class="cart__name">Subtotal</div>
+                        <div class="cart__price">$2,683.00</div>
+                    </div>
+                    <div class="cart__discount">
+                        <div class="cart__name">Coupon Discount</div>
+                        <div class="cart__price">
+                            <span>(-) 00.00</span>
+                        </div>
+                    </div>
+                    <div class="cart__shiping">
+                        <div class="cart__name">Shiping</div>
+                        <div class="cart__price">$16.00</div>
+                    </div>
+                    <a class="cart__shiping_info" href="#">View shipping charge</a>
+                    <div class="cart__total">
+                        <div class="cart__name">
+                            <span>Total</span>
+                        </div>
+                        <div class="cart__total_price">$16.00</div>
                     </div>
                 </div>
-                <div class="cart__shiping">
-                    <div class="everybody__title">Shiping</div>
-                    <div class="everybody__price">$16.00</div>
+                <div class="shopping__navigation_bottom">
+                    <button class="shopping__navigation_buy-button">Proceed To Checkout</button>  
                 </div>
-                <a class="shiping__info" href="#">View shipping charge</a>
-                <div class="cart__total">
-                    <div class="everybody__title">
-                        <span>Total</span>
-                    </div>
-                    <div class="total__price">$16.00</div>
-                </div>
-            </div>
-            <div class="shopping__navigation_bottom">
-                <button class="shopping__navigation_buy-button">Proceed To Checkout</button>  
-            </div>
             </div>
         </div>
 
@@ -91,6 +91,7 @@
         <!-- SHOPPING CART -->
 
         <div class="shopping">
+
             <h3><span>Home /</span> Shop / Shopping Cart</h3>
 
             <div class="shopping__card">
@@ -112,13 +113,15 @@
                         </div>
                     </div>
                     <div class="shopping__mobile">
-                        <button class="shopping__arrow"><</button> 
-                        <div class="shopping__header">Cart</div>
+                        <button class="shopping__mobile_arrow"><</button> 
+                        <div class="shopping__mobile_header">Cart</div>
                     </div>
                     <div class="shopping__container">
                         <div class="shopping__product_card">
-                            <div class="shopping__image">
-                                <img src="resources/img/plant400.png" alt="" class="shopping__img">
+                            <div class="shopping__product_name">
+                                <div class="shopping__product_image">
+                                    <img src="resources/img/plant400.png" alt="" class="shopping__img">
+                                </div>
                                 <div class="shopping__name">
                                     <div class="shopping__title">Barberton Daisy</div>
                                     <div class="shopping__subtitle">
@@ -141,13 +144,15 @@
                                 </div>
                                 <div class="shopping__total">$238.00</div>
                                 <a class="shopping__delete" href="#">
-                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="delete_image">
+                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="shopping__delete_image">
                                 </a>
                             </div>
                         </div>
                         <div class="shopping__product_card">
-                            <div class="shopping__image">
-                                <img src="resources/img/shopping card/400.png" alt="" class="shopping__img">
+                            <div class="shopping__product_name">
+                                <div class="shopping__product_image">
+                                    <img src="resources/img/shopping card/400.png" alt="" class="shopping__img">
+                                </div>
                                 <div class="shopping__name">
                                     <div class="shopping__title">Blushing Bromeliad</div>
                                     <div class="shopping__subtitle">
@@ -170,13 +175,15 @@
                                 </div>
                                 <div class="shopping__total">$834.00</div>
                                 <a class="shopping__delete" href="#">
-                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="delete_image">
+                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="shopping__delete_image">
                                 </a>
                             </div>
                         </div>
                         <div class="shopping__product_card">
-                            <div class="shopping__image">
-                                <img src="resources/img/shopping card/plate400.png" alt="" class="shopping__img">
+                            <div class="shopping__product_name">
+                                <div class="shopping__product_image">
+                                    <img src="resources/img/shopping card/plate400.png" alt="" class="shopping__img">
+                                </div>
                                 <div class="shopping__name">
                                     <div class="shopping__title">Aluminum Plant</div>
                                     <div class="shopping__subtitle">
@@ -199,44 +206,48 @@
                                 </div>
                                 <div class="shopping__total">$1,611.00</div>
                                 <a class="shopping__delete" href="#">
-                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="delete_image">
+                                    <img src="resources/img/shopping card/Delete.svg" alt="" class="shopping__delete_image">
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="shopping__cart_total">
-                    <div class="cart__name">
+                <div class="cart__totals">
+                    <div class="cart__head">
                         <div class="cart__title">Cart Totals</div>
                     </div>
                     <div class="cart__apply">Coupon Apply</div>
-                    <div class="cart__input_apply">
-                        <input type="" placeholder="Enter coupon code here..." class="cart__input">
-                        <button class="button__apply">Apply</button>
+                    <div class="cart__input_button">
+                        <div class="cart__input">
+                            <input type="" placeholder="Enter coupon code here..." class="cart__input_style">
+                        </div>
+                        <div class="cart__button">
+                            <button class="cart__button_apply">Apply</button>
+                        </div>
                     </div>
                     <div class="cart__subtotal">
-                        <div class="everybody__title">Subtotal</div>
-                        <div class="everybody__price">$2,683.00</div>
+                        <div class="cart__name">Subtotal</div>
+                        <div class="cart__price">$2,683.00</div>
                     </div>
                     <div class="cart__discount">
-                        <div class="everybody__title">Coupon Discount</div>
-                        <div class="everybody__price">
+                        <div class="cart__name">Coupon Discount</div>
+                        <div class="cart__price">
                             <span>(-) 00.00</span>
                         </div>
                     </div>
                     <div class="cart__shiping">
-                        <div class="everybody__title">Shiping</div>
-                        <div class="everybody__price">$16.00</div>
+                        <div class="cart__name">Shiping</div>
+                        <div class="cart__price">$16.00</div>
                     </div>
-                    <a class="shiping__info" href="#">View shipping charge</a>
+                    <a class="cart__shiping_info" href="#">View shipping charge</a>
                     <div class="cart__total">
-                        <div class="everybody__title">
+                        <div class="cart__name">
                             <span>Total</span>
                         </div>
-                        <div class="total__price">$16.00</div>
+                        <div class="cart__total_price">$16.00</div>
                     </div>
                     <div class="cart__checkout">
-                        <button class="button__checkout">Proceed To Checkout</button>
+                        <button class="cart__button_checkout">Proceed To Checkout</button>
                     </div>
                     <a class="cart__continue" href="#">Continue Shopping</a>
                 </div>
