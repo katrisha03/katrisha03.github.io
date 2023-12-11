@@ -3675,8 +3675,8 @@ a {
 @media screen and (max-width: 750px) {
   .poput__vertical_line {
     height: 50px;
-    margin-right: 10px;
-    margin-left: 5px;
+    margin-right: 15px;
+    margin-left: 10px;
   }
 }
 
