@@ -114,6 +114,9 @@
     width: 100%;
     height: 10px;
     background-color: #46A358;
+    @media screen and (max-width: 750px) {
+        display: none;
+    }
 }
 
 .poput__product_details{

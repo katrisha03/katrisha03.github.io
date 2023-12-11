@@ -3688,6 +3688,11 @@ a {
   height: 10px;
   background-color: #46A358;
 }
+@media screen and (max-width: 750px) {
+  .poput__footer_line {
+    display: none;
+  }
+}
 
 .poput__product_details {
   padding-left: 40px;
