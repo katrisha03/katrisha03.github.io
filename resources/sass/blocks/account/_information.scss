@@ -1,0 +1,220 @@
+.information__container{
+    max-width: 862px;
+}
+
+.information__text{
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+
+.information__block{
+    width: 862px;
+    height: 711px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.information__block_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__block_center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__block_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__contect{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.information__first_name{
+    display: flex;
+    width: 83px;
+    justify-content: space-between;
+}
+
+.information__email_address{
+    display: flex;
+    width: 103px;
+    justify-content: space-between;
+}
+
+.information__username{
+    display: flex;
+    width: 75px;
+    justify-content: space-between;
+}
+
+.information__last_name{
+    display: flex;
+    width: 83px;
+    justify-content: space-between;
+}
+
+.information__phone_number{
+    display: flex;
+    width: 105px;
+    justify-content: space-between;
+}
+
+.information__name-style{
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 100% */
+}
+
+
+.information__star{
+    color: #F03800;
+    font-family: Cera Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 68.182% */
+}
+
+.information__input_number{
+    display: flex;
+    justify-content: space-between;
+    width: 417px;
+}
+
+.information__input_style{
+    width: 417px;
+    border-radius: 3px;
+    border: 1px solid #EAEAEA;
+    height: 40px;
+
+    color: #A5A5A5;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 107.143% */
+
+    padding: 0.375rem 0.75rem;
+}
+
+.information__input_number-style{
+    width: 329px;
+    border-radius: 3px;
+    border: 1px solid #EAEAEA;
+    height: 40px;
+
+    color: #A5A5A5;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 107.143% */
+
+    padding: 0.375rem 0.75rem;
+}
+
+.information__input{
+    display: flex;
+}
+
+.information__toggle{
+    margin-left: -26px;
+}
+
+.information__contect_button{
+    max-width: 131px;
+}
+
+.information__contect_button-style{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #46A358;
+
+    color: #FFF;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+
+.information__number-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    width: 78px;
+    height: 40px;
+
+    border-radius: 3px;
+    border: 1px solid #EAEAEA;
+
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.number__button{
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 100% */
+}
+
+.information__photo_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 245px;
+    margin-right: 172px;
+}
+
+.information__photo_ellipse{
+    width: 50px;
+    height: 50px;
+    background-color: #fbfbfb;
+    border-radius: 30px;
+    border: 1px solid #EAEAEA;
+}
+
+.intormation__photo_button{
+    width: 98px;
+    height: 40px;
+
+    border-radius: 3px;
+    background: #46A358;
+
+    color: #FFF;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+
+.information__photo_text{
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+}

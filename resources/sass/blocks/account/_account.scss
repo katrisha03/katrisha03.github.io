@@ -1,0 +1,106 @@
+.header__button-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    cursor: pointer;
+  
+    color: #FFF;
+    background-color: #46A358;
+  
+    font-size: 16px;
+    font-weight: 500;
+    text-align:center;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    padding: 5px 8px 6px 7px;
+    gap:0;
+}
+
+.personal__information{
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 230px;
+    @media screen and (max-width: 750px) {
+        margin-top: 0;
+    }
+}
+
+.personal__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.account{
+    width: 310px;
+    height: 431px;
+    display: flex;
+    background-color: #FBFBFB;
+    @media screen and (max-width: 750px) {
+        display: none;
+    }
+}
+
+.account__container{
+    width: 100%;
+    height: 100%;
+    padding: 18px 24px 0px 18px;
+}
+
+.account__text{
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 88.889% */
+}
+
+.account__content{
+    display: flex;
+    padding-left: 6px;
+    padding-top: 15px;
+}
+
+.account__column{
+    width: 130px;
+    height: 100%;
+}
+
+.account__column-image{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 2px 3px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.account__column-style_details{
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 300% */
+    margin-left: 10px;
+    width: 130px;
+}
+
+.account__list{
+    display: flex;
+    align-items: center;
+}
+
+.account__column-style{
+    color: #727272;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin-left: 10px;
+}

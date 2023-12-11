@@ -42,8 +42,6 @@
 }
 
 .shopping__card{
-  height: 448px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 43px;
@@ -150,11 +148,6 @@
     margin-top: 20px;
     background-color: #FFFFFF;
   }
-}
-
-.shopping__product{
-  margin-right: 86px;
-  width: 100%;
 }
 
 .shopping__product_card{
