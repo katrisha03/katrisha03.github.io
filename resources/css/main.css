@@ -3634,10 +3634,7 @@ a {
 }
 @media screen and (max-width: 750px) {
   .poput__product_info {
-    -webkit-column-gap: 5px;
-       -moz-column-gap: 5px;
-            column-gap: 5px;
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -3678,6 +3675,8 @@ a {
 @media screen and (max-width: 750px) {
   .poput__vertical_line {
     height: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
   }
 }
 
