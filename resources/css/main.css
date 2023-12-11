@@ -3561,8 +3561,6 @@ a {
 @media screen and (max-width: 750px) {
   .poput__container {
     width: 100%;
-    -webkit-box-shadow: -2px -13px 5px -4px rgba(70, 163, 88, 0.7) inset;
-            box-shadow: -2px -13px 5px -4px rgba(70, 163, 88, 0.7) inset;
   }
 }
 
@@ -3689,11 +3687,6 @@ a {
   width: 100%;
   height: 10px;
   background-color: #46A358;
-}
-@media screen and (max-width: 750px) {
-  .poput__footer_line {
-    display: none;
-  }
 }
 
 .poput__product_details {

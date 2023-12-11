@@ -16,7 +16,6 @@
     background-color: white;
     @media screen and (max-width: 750px) {
         width: 100%;
-        box-shadow: -2px -13px 5px -4px rgba(70, 163, 88, 0.7) inset;
     }
 }
 
@@ -115,9 +114,6 @@
     width: 100%;
     height: 10px;
     background-color: #46A358;
-    @media screen and (max-width: 750px) {
-        display: none;
-    }
 }
 
 .poput__product_details{
