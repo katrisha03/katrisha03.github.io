@@ -3560,7 +3560,7 @@ a {
 }
 @media screen and (max-width: 750px) {
   .poput__container {
-    width: 80%;
+    width: 100%;
     border-radius: 30px;
     -webkit-box-shadow: -2px -13px 5px -4px rgba(70, 163, 88, 0.7) inset;
             box-shadow: -2px -13px 5px -4px rgba(70, 163, 88, 0.7) inset;
