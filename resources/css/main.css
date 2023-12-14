@@ -4305,6 +4305,9 @@ a {
 @media screen and (max-width: 750px) {
   .information__input_number {
     width: 100%;
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
   }
 }
 
@@ -4342,7 +4345,7 @@ a {
 }
 @media screen and (max-width: 750px) {
   .information__input_number-style {
-    width: 83%;
+    width: 100%;
   }
 }
 

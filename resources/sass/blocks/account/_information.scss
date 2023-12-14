@@ -137,6 +137,7 @@
 
     @media screen and (max-width: 750px) {
         width: 100%;
+        column-gap: 15px;
     }
 }
 
@@ -177,7 +178,7 @@
 
     
     @media screen and (max-width: 750px) {
-        width: 83%;
+        width: 100%;
     }
 }
 
@@ -205,6 +206,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: 16px; /* 114.286% */
+
+    
 }
 
 .information__number-button{
