@@ -85,12 +85,18 @@
     display: flex;
     width: 83px;
     justify-content: space-between;
+    @media screen and (max-width: 750px) {
+        width: 100px;
+    }
 }
 
 .information__email_address{
     display: flex;
     width: 103px;
     justify-content: space-between;
+    @media screen and (max-width: 750px) {
+        width: 115px;
+    }
 }
 
 .information__username{
@@ -103,12 +109,18 @@
     display: flex;
     width: 83px;
     justify-content: space-between;
+    @media screen and (max-width: 750px) {
+        width: 100px;
+    }
 }
 
 .information__phone_number{
     display: flex;
     width: 105px;
     justify-content: space-between;
+    @media screen and (max-width: 750px) {
+        width: 115px;
+    }
 }
 
 .information__name-style{

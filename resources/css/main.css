@@ -4234,6 +4234,11 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 750px) {
+  .information__first_name {
+    width: 100px;
+  }
+}
 
 .information__email_address {
   display: -webkit-box;
@@ -4243,6 +4248,11 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media screen and (max-width: 750px) {
+  .information__email_address {
+    width: 115px;
+  }
 }
 
 .information__username {
@@ -4264,6 +4274,11 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 750px) {
+  .information__last_name {
+    width: 100px;
+  }
+}
 
 .information__phone_number {
   display: -webkit-box;
@@ -4273,6 +4288,11 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media screen and (max-width: 750px) {
+  .information__phone_number {
+    width: 115px;
+  }
 }
 
 .information__name-style {
