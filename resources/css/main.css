@@ -4229,70 +4229,45 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 83px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media screen and (max-width: 750px) {
-  .information__first_name {
-    width: 100px;
-  }
+  -webkit-column-gap: 3px;
+     -moz-column-gap: 3px;
+          column-gap: 3px;
 }
 
 .information__email_address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 103px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media screen and (max-width: 750px) {
-  .information__email_address {
-    width: 115px;
-  }
+  -webkit-column-gap: 3px;
+     -moz-column-gap: 3px;
+          column-gap: 3px;
 }
 
 .information__username {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 75px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-column-gap: 3px;
+     -moz-column-gap: 3px;
+          column-gap: 3px;
 }
 
 .information__last_name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 83px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media screen and (max-width: 750px) {
-  .information__last_name {
-    width: 100px;
-  }
+  -webkit-column-gap: 3px;
+     -moz-column-gap: 3px;
+          column-gap: 3px;
 }
 
 .information__phone_number {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 105px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media screen and (max-width: 750px) {
-  .information__phone_number {
-    width: 115px;
-  }
+  -webkit-column-gap: 3px;
+     -moz-column-gap: 3px;
+          column-gap: 3px;
 }
 
 .information__name-style {
@@ -4400,9 +4375,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -4421,6 +4393,12 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 15px; /* 100% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .information__photo_container {

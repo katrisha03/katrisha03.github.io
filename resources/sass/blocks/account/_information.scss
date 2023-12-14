@@ -83,44 +83,27 @@
 
 .information__first_name{
     display: flex;
-    width: 83px;
-    justify-content: space-between;
-    @media screen and (max-width: 750px) {
-        width: 100px;
-    }
+    column-gap: 3px;
 }
 
 .information__email_address{
     display: flex;
-    width: 103px;
-    justify-content: space-between;
-    @media screen and (max-width: 750px) {
-        width: 115px;
-    }
+    column-gap: 3px;
 }
 
 .information__username{
     display: flex;
-    width: 75px;
-    justify-content: space-between;
+    column-gap: 3px;
 }
 
 .information__last_name{
     display: flex;
-    width: 83px;
-    justify-content: space-between;
-    @media screen and (max-width: 750px) {
-        width: 100px;
-    }
+    column-gap: 3px;
 }
 
 .information__phone_number{
     display: flex;
-    width: 105px;
-    justify-content: space-between;
-    @media screen and (max-width: 750px) {
-        width: 115px;
-    }
+    column-gap: 3px;
 }
 
 .information__name-style{
@@ -224,9 +207,7 @@
 
 .information__number-button{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
 
     width: 78px;
     height: 40px;
@@ -245,6 +226,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 15px; /* 100% */
+    display: flex;
+    align-items: center;
 }
 
 .information__photo_container{
