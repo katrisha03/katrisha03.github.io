@@ -1,5 +1,28 @@
+.personal__information{
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 230px;
+    @media screen and (max-width: 750px) {
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+.personal__container{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 750px) {
+        display: block;
+    }
+}
+
 .information__container{
     max-width: 862px;
+    @media screen and (max-width: 750px) {
+        width: 100%;
+    }
 }
 
 .information__text{
@@ -18,21 +41,38 @@
     justify-content: space-between;
     margin-top: 20px;
     flex-direction: column;
+    @media screen and (max-width: 750px) {
+        height: 900px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 .information__block_header{
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 750px) {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 }
 
 .information__block_center{
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 750px) {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 }
 
 .information__block_footer{
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 750px) {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 }
 
 .information__contect{
@@ -94,6 +134,10 @@
     display: flex;
     justify-content: space-between;
     width: 417px;
+
+    @media screen and (max-width: 750px) {
+        width: 100%;
+    }
 }
 
 .information__input_style{
@@ -110,6 +154,10 @@
     line-height: 15px; /* 107.143% */
 
     padding: 0.375rem 0.75rem;
+
+    @media screen and (max-width: 750px) {
+        width: 100%;
+    }
 }
 
 .information__input_number-style{
@@ -126,6 +174,11 @@
     line-height: 15px; /* 107.143% */
 
     padding: 0.375rem 0.75rem;
+
+    
+    @media screen and (max-width: 750px) {
+        width: 83%;
+    }
 }
 
 .information__input{
